@@ -70,7 +70,7 @@ function orderlist(response) {
       response.write(
         '<tr>' +
           '<td>' +
-          element.product_Id +
+          element.product_id +
           '</td>' +
           '<td>' +
           element.order_date +
