@@ -79,7 +79,7 @@ function orderlist(response) {
       );
     });
 
-    response.write('/<table>');
+    response.write('<table>');
     response.end();
   });
 }
