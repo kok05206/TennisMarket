@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>테니스 마켓</title>
-    <!-- <link rel="stylesheet" href="main.css" /> -->
-    <style>
+    <title>테니스 마켓</title> -->
+<!-- 주석 해제 해야함.-->
+<!-- <link rel="stylesheet" href="main.css" /> -->
+<!-- <style>
       h1 {
         text-align: center;
       }
@@ -79,6 +80,61 @@
           type="button"
           value="Order"
           onclick="location.href='/order?productId=3'"
+        />
+      </div>
+    </div>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/tennis.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Tennis Market</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1>🎾Tennis Market🎾</h1>
+      Welcome to Tennis market!
+      <br />
+      Enjoy your shopping.
+      <br />
+      <br />
+      <button class="link_btn">
+        <a href="./orderlist">Order List</a>
+      </button>
+    </div>
+    <div id="card_list">
+      <div class="card">
+        <img class="card_img" src="./img/redRacket.png" />
+        <p class="card_title">Red Racket</p>
+        <input
+          class="card_btn"
+          type="button"
+          value="order"
+          onclick="location.href='/order?productId=1';"
+        />
+      </div>
+      <div class="card">
+        <img class="card_img" src="./img/blueRacket.png" />
+        <p class="card_title">Blue Racket</p>
+        <input
+          class="card_btn"
+          type="button"
+          value="order"
+          onclick="location.href='/order?productId=2';"
+        />
+      </div>
+      <div class="card">
+        <img class="card_img" src="./img/blackRacket.png" />
+        <p class="card_title">Black Racket</p>
+        <input
+          class="card_btn"
+          type="button"
+          value="order"
+          onclick="location.href='/order?productId=3';"
         />
       </div>
     </div>
